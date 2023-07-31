@@ -1,0 +1,10 @@
+.list-content {
+    column-count: 6;
+    .item-content {
+        margin-bottom: 12px;
+
+        img {
+            border-radius: 10px;
+        }
+    }
+}
