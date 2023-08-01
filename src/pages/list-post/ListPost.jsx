@@ -17,15 +17,16 @@ const ListPost = () => {
     fetchAllData();
   }, []);
   return (
-    <div className="p-5 w-full">
-      <div className="list-content w-full">
+    <div className="p-5 w-full ">
+      <div className="list-content w-full ">
         {list?.map((item, index) => (
-          <div className="item-content relative" key={index}>
+          <div className="item-content relative pb-5 " key={index}>
             <img
               src={item.imageUrl}
               alt=""
             />
-            <div className="absolute bottom-2 left-2 text-yellow-900 font-medium">{item?.title}</div>
+    
+            <div className="absolute padding-5 mt-2  left-7 text-yellow-900 font-medium">{item?.title}</div>
           </div>
         ))}
       </div>

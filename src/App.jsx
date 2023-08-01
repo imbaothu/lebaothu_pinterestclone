@@ -9,12 +9,13 @@ import { useState } from "react";
 import CreatePost from "./pages/create/CreatePost";
 import ListPost from "./pages/list-post/ListPost";
 
-const provider = new GoogleAuthProvider();
+
+const provider2 = new GoogleAuthProvider();
 function App() {
   let navigate = useNavigate();
   const [dataAuth, setDataAuth] = useState();
   const handleLoginGoogle = () => {
-    signInWithPopup(auth, provider)
+    signInWithPopup(auth, provider2)
       .then((result) => {
         setDataAuth(result.user);
         localStorage.setItem("accessToken", result.user.accessToken);
@@ -24,6 +25,8 @@ function App() {
         throw Error(error);
       });
   };
+
+
 
   return (
     <>
