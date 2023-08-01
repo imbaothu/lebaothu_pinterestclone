@@ -10,7 +10,9 @@ const Header = () => {
           alt=""
         />
       </Link>
-      <div className="text">Trang chủ</div>
+
+     <Link to={"/"}className="text">Trang chủ</Link>
+      {/* <div className="text">Trang chủ</div> */}
       <Link to={"/create"} className="text">
         Tạo mới
       </Link>
