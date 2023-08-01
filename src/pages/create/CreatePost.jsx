@@ -103,7 +103,7 @@ const CreatePost = () => {
                 src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                 alt=""
               />
-              <span className="ml-3 font-semibold">Nguoi dufng 1</span>
+              <span className="ml-3 font-semibold">Người dùng 1</span>
             </div>
             <textarea
               id="about"

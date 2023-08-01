@@ -25,7 +25,7 @@ const ListPost = () => {
               src={item.imageUrl}
               alt=""
             />
-            <div className="absolute bottom-2 left-2 text-white font-medium">{item?.title}</div>
+            <div className="absolute bottom-2 left-2 text-yellow-900 font-medium">{item?.title}</div>
           </div>
         ))}
       </div>
